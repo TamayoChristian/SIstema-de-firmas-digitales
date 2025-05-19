@@ -9,5 +9,5 @@ export default function Welcome() {
     if (!token) router.push('/login'); 
   }, []);
 
-  return <h1>¡Bienvenido al frontend!</h1>;
+  return <h1>¡Bienvenido!</h1>;
 }
